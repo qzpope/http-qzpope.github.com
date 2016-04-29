@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>my new post | 我的前端博客</title>
+  <title>Hexo搭建博客时出现的问题处理方法 | 我的前端博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误     ato · 2015-03-10 22:53:48 +08:00用 iPhone 发布 · 14973 次点击这是一个创建于 415 天前的主题，其中的信息可能已经有所发展或是发生改变。折腾了两天，百度不到这个错误的解决方法，想来是个很低级的错误吧，可我都找了不">
+  <meta name="description" content="搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误,这是一个创建于 415 天前的主题，其中的信息可能已经有所发展或是发生改变。折腾了两天，百度不到这个错误的解决方法，想来是个很低级的错误吧，可我都找了不少搭建hexo的教程，在本地调试也是可以浏览，就是死活传不上github。Melodic   2015-03-10 2">
 <meta property="og:type" content="article">
-<meta property="og:title" content="my new post">
+<meta property="og:title" content="Hexo搭建博客时出现的问题处理方法">
 <meta property="og:url" content="http://qzpope.github.io/2016/04/29/my-new-post/index.html">
 <meta property="og:site_name" content="我的前端博客">
-<meta property="og:description" content="搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误     ato · 2015-03-10 22:53:48 +08:00用 iPhone 发布 · 14973 次点击这是一个创建于 415 天前的主题，其中的信息可能已经有所发展或是发生改变。折腾了两天，百度不到这个错误的解决方法，想来是个很低级的错误吧，可我都找了不">
-<meta property="og:updated_time" content="2016-04-29T08:26:51.859Z">
+<meta property="og:description" content="搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误,这是一个创建于 415 天前的主题，其中的信息可能已经有所发展或是发生改变。折腾了两天，百度不到这个错误的解决方法，想来是个很低级的错误吧，可我都找了不少搭建hexo的教程，在本地调试也是可以浏览，就是死活传不上github。Melodic   2015-03-10 2">
+<meta property="og:updated_time" content="2016-04-29T13:00:59.281Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="my new post">
-<meta name="twitter:description" content="搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误     ato · 2015-03-10 22:53:48 +08:00用 iPhone 发布 · 14973 次点击这是一个创建于 415 天前的主题，其中的信息可能已经有所发展或是发生改变。折腾了两天，百度不到这个错误的解决方法，想来是个很低级的错误吧，可我都找了不">
+<meta name="twitter:title" content="Hexo搭建博客时出现的问题处理方法">
+<meta name="twitter:description" content="搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误,这是一个创建于 415 天前的主题，其中的信息可能已经有所发展或是发生改变。折腾了两天，百度不到这个错误的解决方法，想来是个很低级的错误吧，可我都找了不少搭建hexo的教程，在本地调试也是可以浏览，就是死活传不上github。Melodic   2015-03-10 2">
   
     <link rel="alternate" href="/atom.xml" title="我的前端博客" type="application/atom+xml">
   
@@ -81,7 +81,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      my new post
+      Hexo搭建博客时出现的问题处理方法
     </h1>
   
 
@@ -89,33 +89,24 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误<br>     ato · 2015-03-10 22:53:48 +08:00用 iPhone 发布 · 14973 次点击<br>这是一个创建于 415 天前的主题，其中的信息可能已经有所发展或是发生改变。<br>折腾了两天，百度不到这个错误的解决方法，想来是个很低级的错误吧，可我都找了不少搭建hexo的教程，在本地调试也是可以浏览，就是死活传不上github。<br> Hexo deployer deploy22 回复  |  直到 2016-04-22 00:02:11 +08:00<br>            1<br>Melodic   2015-03-10 23:05:59 +08:00   ? 2<br>hexo 更新到3.0之后，deploy的type 的github需要改成git<br>            2<br>ato   2015-03-10 23:11:24 +08:00 via iPhone<br>@Melodic 昨天有试过改称git，也是不行，后来就一直用github试，明天我再去试试git看，希望能行<br>            3<br>Melodic   2015-03-11 01:41:50 +08:00   ? 8<br>@ato npm install hexo-deployer-git –save 改了之后执行，然后再部署试试<br>            4<br>sunnysign   2015-03-11 07:08:14 +08:00 via iPhone<br>yaml语法要求严格，注意空格。建议把github地址那条语句重新手写一遍，冒号后面要有一个空格。<br>            5<br>xxiu   2015-03-11 11:29:10 +08:00<br>配置那里的冒号后面是有一个半角的空格的.如果中间有空格用分号引用一下.<br>            6<br>weyou   2015-03-11 13:55:22 +08:00<br>我也遇到相同的问题， 降级到2.8.3后解决。<br>            7<br>var   2015-03-11 14:13:53 +08:00<br>之前也是一直出现not found:github，后来在issues里面看到说更新到3.0后type要换成git，果然一换就OK.<br>            8<br>nnfan   2015-03-13 02:03:26 +08:00<br>@Melodic 可以了，不过啥原因？<br>            9<br>ming2281   2015-04-02 13:52:33 +08:00<br>还是2.x比较好, 网上的教程大多都是针对2.x的, 许多作者也没有注明hexo版本, 害我趟了好多坑<br>            10<br>ming2281   2015-04-02 13:54:04 +08:00<br>以下坑:<br>type =&gt;git<br>repository: 换成http形式(不是https)<br>还要安装针对3的部署器<br>            11<br>helloqingfeng   350 天前<br>@ming2281 还是不行啊啊<br>            12<br>zszdevelop   350 天前<br>@Melodic 是按他说的这么做的<br>            13<br>ming2281   350 天前<br>@helloqingfeng 我不清楚, 但是有几点经验: 尽量使用Hexo2.x, 使用Google搜索教程的时候务必查看教程的日期. 其他的恐怕需要自己趟坑了 </p>
-<p>不过我一般不喜欢把时间浪费在打磨工具上面(实际上,这种收益是对自己没有很大的帮助的) </p>
-<p>所以我选择的SegmentFault.com的博客服务<br>            14<br>helloqingfeng   346 天前<br>@ming2281 谢谢啊，我就是瞎折腾一下<br>            15<br>itommy   317 天前<br>第一次遇到标题的问题时，就跑了 @Melodic 上面写的命令，然后就好了。 </p>
-<p>其实 low 一点，直接把 /public scp 到服务器上就好 :p </p>
-<p>今天也被坑了一下，然后发现是新的 repo 是推不进去的，一定要先有个 commit </p>
-<p>LOL<br>            16<br>guxingxianyue   147 天前<br>@Melodic 你的回答完美的解决了我的问题<br>            18<br>hytaoist   63 天前<br>@Melodic 好棒<br>            19<br>WangMaster   18 天前   ? 1<br>npm install hexo-deployer-git –save<br>重新 deploy 即可<br>            20<br>XXdandan   17 天前<br>@Melodic 你的方法可行，老兄。<br>            21<br>cyang812   8 天前<br>@WangMaster 成功解决<br>            22<br>WangMaster   7 天前<br>@cyang812 握爪</p>
+        <p>搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误,这是一个创建于 415 天前的主题，其中的信息可能已经有所发展或是发生改变。<br>折腾了两天，百度不到这个错误的解决方法，想来是个很低级的错误吧，可我都找了不少搭建hexo的教程，在本地调试也是可以浏览，就是死活传不上github。<br>Melodic   2015-03-10 23:05:59 +08:00   ?<br>hexo 更新到3.0之后，deploy的type 的github需要改成git</p>
+<p>ato   2015-03-10 23:11:24 +08:00 via iPhone<br>@Melodic 昨天有试过改称git，也是不行，后来就一直用github试，明天我再去试试git看，希望能行</p>
+<p>Melodic   2015-03-11 01:41:50 +08:00   ?<br>@ato </p>
+<p>npm install hexo-deployer-git –save 改了之后执行，然后再部署试试。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://qzpope.github.io/2016/04/29/my-new-post/" data-id="cinlq491d0001tknrzqkaqm51" class="article-share-link">Share</a>
+      <a data-url="http://qzpope.github.io/2016/04/29/my-new-post/" data-id="cinlqa2o60001m8nrlho63a56" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
-  
-    <a href="/2016/04/29/my-new-post2/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          my new post2
-        
-      </div>
-    </a>
   
   
     <a href="/2016/04/29/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
@@ -136,9 +127,23 @@
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
@@ -157,11 +162,7 @@
       <ul>
         
           <li>
-            <a href="/2016/04/29/my-new-post2/">my new post2</a>
-          </li>
-        
-          <li>
-            <a href="/2016/04/29/my-new-post/">my new post</a>
+            <a href="/2016/04/29/my-new-post/">Hexo搭建博客时出现的问题处理方法</a>
           </li>
         
           <li>
