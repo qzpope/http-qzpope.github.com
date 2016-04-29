@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>我的前端博客</title>
+  <title>hexo博客的配置、使用 | 我的前端博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="记录前端的点点滴滴">
-<meta property="og:type" content="website">
-<meta property="og:title" content="我的前端博客">
-<meta property="og:url" content="http://qzpope.github.io/index.html">
+  <meta name="description" content="在上一节中，我们在本地和github搭建起了自己的hexo博客站点，但是还未发表过文章，站点的配置还是原来的默认值。在本节，我们来进行个性化的设置，将站点打造成自己的，同时介绍下怎么撰文和发表。站点配置用到两个文件，一个是对整站的配置H:\hexo_config.yml，另一个是对主题的配置H:\hexo\themes\light_config.yml，我们来分别介绍。H:\hexo\ _conf">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo博客的配置、使用">
+<meta property="og:url" content="http://qzpope.github.io/2016/04/29/my-new-post3/index.html">
 <meta property="og:site_name" content="我的前端博客">
-<meta property="og:description" content="记录前端的点点滴滴">
+<meta property="og:description" content="在上一节中，我们在本地和github搭建起了自己的hexo博客站点，但是还未发表过文章，站点的配置还是原来的默认值。在本节，我们来进行个性化的设置，将站点打造成自己的，同时介绍下怎么撰文和发表。站点配置用到两个文件，一个是对整站的配置H:\hexo_config.yml，另一个是对主题的配置H:\hexo\themes\light_config.yml，我们来分别介绍。H:\hexo\ _conf">
+<meta property="og:updated_time" content="2016-04-29T13:15:39.312Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我的前端博客">
-<meta name="twitter:description" content="记录前端的点点滴滴">
+<meta name="twitter:title" content="hexo博客的配置、使用">
+<meta name="twitter:description" content="在上一节中，我们在本地和github搭建起了自己的hexo博客站点，但是还未发表过文章，站点的配置还是原来的默认值。在本节，我们来进行个性化的设置，将站点打造成自己的，同时介绍下怎么撰文和发表。站点配置用到两个文件，一个是对整站的配置H:\hexo_config.yml，另一个是对主题的配置H:\hexo\themes\light_config.yml，我们来分别介绍。H:\hexo\ _conf">
   
     <link rel="alternate" href="/atom.xml" title="我的前端博客" type="application/atom+xml">
   
@@ -66,9 +67,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-my-new-post3" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-my-new-post3" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/04/29/my-new-post3/" class="article-date">
   <time datetime="2016-04-29T13:14:21.000Z" itemprop="datePublished">2016-04-29</time>
@@ -81,8 +80,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/29/my-new-post3/">hexo博客的配置、使用</a>
+    <h1 class="article-title" itemprop="name">
+      hexo博客的配置、使用
     </h1>
   
 
@@ -132,97 +131,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-my-new-post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/04/29/my-new-post/" class="article-date">
-  <time datetime="2016-04-29T08:26:13.000Z" itemprop="datePublished">2016-04-29</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/29/my-new-post/">Hexo搭建博客时出现的问题处理方法</a>
-    </h1>
+    <a href="/2016/04/29/my-new-post/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hexo搭建博客时出现的问题处理方法</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>搭建 hexo，在执行 hexo deploy 后,出现 error deployer not found:github 的错误,这是一个创建于 415 天前的主题，其中的信息可能已经有所发展或是发生改变。<br>折腾了两天，百度不到这个错误的解决方法，想来是个很低级的错误吧，可我都找了不少搭建hexo的教程，在本地调试也是可以浏览，就是死活传不上github。<br>Melodic   2015-03-10 23:05:59 +08:00   ?<br>hexo 更新到3.0之后，deploy的type 的github需要改成git</p>
-<p>ato   2015-03-10 23:11:24 +08:00 via iPhone<br>@Melodic 昨天有试过改称git，也是不行，后来就一直用github试，明天我再去试试git看，希望能行</p>
-<p>Melodic   2015-03-11 01:41:50 +08:00   ?<br>@ato </p>
-<p>npm install hexo-deployer-git –save 改了之后执行，然后再部署试试。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://qzpope.github.io/2016/04/29/my-new-post/" data-id="cinlqsstd0001sknrpv3mezc6" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/04/29/hello-world/" class="article-date">
-  <time datetime="2016-04-29T08:10:58.859Z" itemprop="datePublished">2016-04-29</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/29/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://qzpope.github.io/2016/04/29/hello-world/" data-id="cinlqssso0000sknrfyamh5l2" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
